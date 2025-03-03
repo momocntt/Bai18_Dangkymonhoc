@@ -237,6 +237,11 @@
             // clbMonhoc
             // 
             this.clbMonhoc.FormattingEnabled = true;
+            this.clbMonhoc.Items.AddRange(new object[] {
+            "LT WINDOWS",
+            "LT INTERNET",
+            "MẠNG MÁY TÍNH",
+            "UML"});
             this.clbMonhoc.Location = new System.Drawing.Point(90, 243);
             this.clbMonhoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.clbMonhoc.Name = "clbMonhoc";
